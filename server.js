@@ -32,7 +32,7 @@ app.use('/api/application',applicationroutes)
 app.use('/api/inquery',inqueryroutes)
 app.use('/api/dashboard',dashboardroutes)
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5001
 app.get("/", (req, res) => {
     res.send("Node js code deployedd...")
 })
